@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #6C63FF;
+    --off-white: #F3F4F6;
+}
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+
+}
+
+#nav-name {
+    margin-right: 2rem;
+}
+
+/* header */
+
+.hero-img {
+    max-width: 350px;
+    margin-top: 2rem;
+    /* padding: 3rem; */
+}
+.hero-heading {
+    font-size: 2rem;
+}
+.hero-heading span {
+    color: var(--primary-color);
+}
+.container-center {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.container-center a {
+    text-decoration: none;
+}
+
+/* ul>li{
+    display: inline;
+} */
+
+/* list */
+.list {
+    text-decoration: none;
+    color: white;
+}
+.link-active {
+    font-weight: bold;
+
+}
+.list-non-bullets {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.list-inline {
+    display: inline;
+    padding: 0rem 0.8rem;
+}
+/* .list-non-bullets .list-inline {
+    align-items: right;
+} */
+/* button*/
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    /* padding: 0.7rem; */
+    padding: 0.5rem 1rem;
+    max-width: 140px;
+    display: block;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+}
+.btn-secondary {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    /* padding: 0.7rem; */
+    padding: 0.5rem 1rem;
+    margin: 1rem 1rem 1rem 0rem;
+    max-width: 140px;
+    display: block;
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+.margin-down {
+    margin-bottom: 2rem;
+}
+/* section */
+.section {
+    padding: 2rem;
+    margin: 0.1rem;
+}
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white)
+}
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+.txt-footer {
+    text-align: center;
+}
